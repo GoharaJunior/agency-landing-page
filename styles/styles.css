@@ -74,7 +74,6 @@ a {
   padding: 30px;
 }
 
-
 .intro-info h1 {
   font-size: 50px;
   margin-bottom: 20px;
@@ -85,6 +84,7 @@ a {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 45px;
+  line-height: 1.2em;
 }
 
 .intro-info button{
@@ -96,8 +96,6 @@ a {
   font-size: 18px;
   transition: 250ms ease;
   font-weight: 500;
-
-
 }
 
 .intro-info button:hover {
@@ -108,5 +106,6 @@ a {
 }
 
 .intro img {
-  width: 700px;
+  width: 670px;
+  padding-left: 70px;
 }
