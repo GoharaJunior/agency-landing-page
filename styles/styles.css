@@ -224,6 +224,7 @@ a {
   font-size: 18px;
   line-height: 1.2em;
   margin-bottom: 30px;
+  max-width: 800px;
 }
 
 .services-text-info button{
