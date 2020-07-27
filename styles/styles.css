@@ -61,9 +61,9 @@ a {
   background-color: #fff;
   padding: 12px 30px;
   border-radius: 30px;
-  -webkit-box-shadow: -2px 3px 22px -7px rgba(0,0,0,0.29);
-  -moz-box-shadow: -2px 3px 22px -7px rgba(0,0,0,0.29);
-  box-shadow: -2px 3px 22px -7px rgba(0,0,0,0.29);
+  -webkit-box-shadow: -1px -4px 31px -3px rgba(0,0,0,0.12);
+  -moz-box-shadow: -1px -4px 31px -3px rgba(0,0,0,0.12);
+  box-shadow: -1px -4px 31px -3px rgba(0,0,0,0.12);
 }
 /* Intro */
 .intro {
@@ -72,6 +72,8 @@ a {
   display: flex;
   align-items: center;
   padding: 30px;
+  justify-content: space-between;
+
 }
 
 .intro-info h1 {
@@ -151,9 +153,9 @@ a {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  -webkit-box-shadow: -2px 3px 22px -7px rgba(0,0,0,0.29);
-  -moz-box-shadow: -2px 3px 22px -7px rgba(0,0,0,0.29);
-  box-shadow: -2px 3px 22px -7px rgba(0,0,0,0.29);
+  -webkit-box-shadow: -1px -4px 31px -3px rgba(0,0,0,0.12);
+  -moz-box-shadow: -1px -4px 31px -3px rgba(0,0,0,0.12);
+  box-shadow: -1px -4px 31px -3px rgba(0,0,0,0.12);
 }
  
 .services-bullet-info h3 {
@@ -174,9 +176,9 @@ a {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  -webkit-box-shadow: -2px 3px 22px -7px rgba(0,0,0,0.29);
-  -moz-box-shadow: -2px 3px 22px -7px rgba(0,0,0,0.29);
-  box-shadow: -2px 3px 22px -7px rgba(0,0,0,0.29);
+  -webkit-box-shadow: -1px -4px 31px -3px rgba(0,0,0,0.12);
+  -moz-box-shadow: -1px -4px 31px -3px rgba(0,0,0,0.12);
+  box-shadow: -1px -4px 31px -3px rgba(0,0,0,0.12);
 }
 
 .services-bullet-info2 h3 {
@@ -201,12 +203,11 @@ a {
 
 .services-bullet-info-up {
   align-items: flex-start;
-  
   background: #fff;
   border-radius: 10px;
-  -webkit-box-shadow: -2px 3px 22px -7px rgba(0,0,0,0.29);
-  -moz-box-shadow: -2px 3px 22px -7px rgba(0,0,0,0.29);
-  box-shadow: -2px 3px 22px -7px rgba(0,0,0,0.29);
+  -webkit-box-shadow: -1px -4px 31px -3px rgba(0,0,0,0.12);
+  -moz-box-shadow: -1px -4px 31px -3px rgba(0,0,0,0.12);
+  box-shadow: -1px -4px 31px -3px rgba(0,0,0,0.12);
 }
 
 .services-text-info h3 {
@@ -239,6 +240,220 @@ a {
 }
 
 .services-text-info button:hover {
+  background: transparent;
+  color: var(--button1-color);
+  font-weight: 500;
+  border: 2px solid var(--button1-color);
+}
+/* About Us */
+.about-container {
+  display: flex;
+  max-width: 1250px;
+  margin: 100px auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-container img { 
+  width: 600px;
+}
+
+.about-text-info h3 {
+  color: var(--button1-color);
+  margin-bottom: 16px;
+}
+
+.about-text-info h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.about-text-info p {
+  color: #707070;
+  font-size: 18px;
+  line-height: 1.2em;
+  margin-bottom: 30px;
+  max-width: 550px;
+}
+
+.about-text-info button{
+  background-color: var(--button1-color);
+  border: 2px solid var(--button1-color);
+  padding: 15px 35px;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: 250ms ease;
+  font-weight: 500;
+}
+
+.about-text-info button:hover {
+  background: transparent;
+  color: var(--button1-color);
+  font-weight: 500;
+  border: 2px solid var(--button1-color);
+}
+/* Goals */
+.goal-bg {
+  background-image: url(/images/goal-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.goal-container {
+  text-align: center;
+}
+
+.goal-container h3 {
+  color: var(--button1-color);
+  margin-bottom: 16px;
+  font-size: 25px;
+}
+
+.goal-container h2 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.goal-container button{
+  background-color: var(--button1-color);
+  border: 2px solid var(--button1-color);
+  padding: 15px 35px;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: 250ms ease;
+  font-weight: 500;
+}
+
+.goal-container button:hover {
+  background: transparent;
+  color: #fff;
+  font-weight: 500;
+  border: 2px solid #fff;
+}
+/* Our Team */
+.team-container {
+  display: flex;
+  max-width: 1250px;
+  margin: 140px auto;
+}
+.team-bullet1 {
+  display: flex;
+}
+.team-bullet2 {
+  display: flex;
+}
+
+.team-bullet-info img {
+  width: 250px;
+  /* margin-bottom: 15px; */
+}
+
+.team-bullet-info2 img {
+  width: 75px;
+  margin-bottom: 15px;
+}
+
+.team-bullet-info {
+  margin: 30px;
+  padding: 30px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: -1px -4px 31px -3px rgba(0,0,0,0.12);
+  -moz-box-shadow: -1px -4px 31px -3px rgba(0,0,0,0.12);
+  box-shadow: -1px -4px 31px -3px rgba(0,0,0,0.12);
+}
+ 
+.team-bullet-info h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.team-bullet-info p {
+  color: #707070;
+  font-size: 18px;
+}
+
+.team-bullet-info2 {
+  position: relative;
+  top: -40px;
+  margin: 30px;
+  padding: 30px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: -1px -4px 31px -3px rgba(0,0,0,0.12);
+  -moz-box-shadow: -1px -4px 31px -3px rgba(0,0,0,0.12);
+  box-shadow: -1px -4px 31px -3px rgba(0,0,0,0.12);
+}
+
+.team-bullet-info2 h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.team-bullet-info2 p {
+  color: #707070;
+  font-size: 18px;
+}
+
+.team-text-container {
+  display: flex;
+  align-items: center;
+  max-width: 550px;
+}
+
+.team-text-info {
+  padding: 30px;
+}
+
+.team-bullet-info-up {
+  align-items: flex-start;
+  background: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: -1px -4px 31px -3px rgba(0,0,0,0.12);
+  -moz-box-shadow: -1px -4px 31px -3px rgba(0,0,0,0.12);
+  box-shadow: -1px -4px 31px -3px rgba(0,0,0,0.12);
+}
+
+.team-text-info h3 {
+  color: var(--button1-color);
+  margin-bottom: 16px;
+}
+
+.team-text-info h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.team-text-info p {
+  color: #707070;
+  font-size: 18px;
+  line-height: 1.2em;
+  margin-bottom: 30px;
+  max-width: 800px;
+}
+
+.team-text-info button{
+  background-color: var(--button1-color);
+  border: 2px solid var(--button1-color);
+  padding: 15px 35px;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: 250ms ease;
+  font-weight: 500;
+}
+
+.team-text-info button:hover {
   background: transparent;
   color: var(--button1-color);
   font-weight: 500;
