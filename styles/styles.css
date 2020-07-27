@@ -346,18 +346,19 @@ a {
 }
 .team-bullet1 {
   display: flex;
+  /* justify-content: space-between; */
 }
 .team-bullet2 {
   display: flex;
 }
 
 .team-bullet-info img {
-  width: 250px;
-  /* margin-bottom: 15px; */
+  width: 150px;
+  margin-bottom: 15px;
 }
 
 .team-bullet-info2 img {
-  width: 75px;
+  width: 150px;
   margin-bottom: 15px;
 }
 
@@ -366,7 +367,7 @@ a {
   padding: 30px;
   text-align: center;
   background-color: #fff;
-  border-radius: 10px;
+  border-radius: 20px;
   -webkit-box-shadow: -1px -4px 31px -3px rgba(0,0,0,0.12);
   -moz-box-shadow: -1px -4px 31px -3px rgba(0,0,0,0.12);
   box-shadow: -1px -4px 31px -3px rgba(0,0,0,0.12);
@@ -374,7 +375,7 @@ a {
  
 .team-bullet-info h3 {
   font-size: 22px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .team-bullet-info p {
