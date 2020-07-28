@@ -563,3 +563,47 @@ a {
   margin-bottom: 30px;
   max-width: 550px;
 }
+
+.client-photo {
+  display: flex;
+  background-color: #EFEFFE;
+
+}
+
+.client-photo img {
+  width: 360px;
+}
+.client-photo-info {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+}
+
+.client-photo-info img {
+  width: 230px;
+}
+
+.client-photo-info h3 {
+  margin-bottom: 20px;
+  line-height: 1.6em;
+  max-width: 400px;
+}
+
+.client-photo-info p {
+  color: #707070;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #222D39;
+  font-weight: 500;
+}
+
+.client-photo-info-text {
+  padding-left: 150px;
+  max-width: 610px;
+}
+
+.client-photo-info-text span {
+  font-size: 12px;
+}
+/* Footer */
