@@ -310,7 +310,7 @@ a {
 }
 /* Goals */
 .goal-bg {
-  background-image: url(/images/goal-bg.png);
+  background-image: url(./images/goal-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
