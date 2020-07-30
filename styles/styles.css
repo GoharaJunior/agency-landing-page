@@ -37,7 +37,7 @@ a {
   flex-wrap: wrap;
 }
 
-.menu-nav li a {
+.menu-nav a {
   font-size: 17px;
   font-weight: 500;
   transition: 200ms;
@@ -119,8 +119,11 @@ a {
 
 .intro img {
   width: 670px;
-  padding-left: 70px;
+  padding: 30px;
 }
+
+
+
 /* Partners */
 .partners-container {
   display: flex;
@@ -260,9 +263,11 @@ a {
 .about-container {
   display: flex;
   max-width: 1250px;
-  margin: 100px auto;
+  margin: 80px auto;
+  padding: 0 30px;
   align-items: center;
   justify-content: space-between;
+
 }
 
 .about-container img { 
@@ -310,6 +315,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -356,6 +362,8 @@ a {
   margin: 0px auto;
   padding-top: 140px;
   justify-content: space-between;
+  flex-wrap: wrap;
+
 }
 .team-bullet1 {
   display: flex;
@@ -480,6 +488,8 @@ a {
   padding: 50px 0;
   justify-content: center;
   justify-content: space-around;
+  flex-wrap: wrap;
+
 }
 
 .statistic-box{
@@ -512,7 +522,6 @@ a {
 
 .statistic-box-info p {
   font-size: 18px;
-  text: inline-block;
   font-weight: 700;
 }
 /* Projects */
@@ -577,6 +586,8 @@ a {
 .client-photo {
   display: flex;
   background-color: #EFEFFE;
+  flex-wrap: wrap;
+
 
 }
 
