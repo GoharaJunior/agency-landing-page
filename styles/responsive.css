@@ -75,7 +75,7 @@
     flex-direction: column;
   }
   .about-container img {
-    width: 500px;
+    width: 300px;
   }
   .about-text-info {
     text-align: center;
@@ -99,8 +99,40 @@
     flex-direction: column;
     justify-content: center;
   }
-
-
+  /*== STATISTIC ==*/
+  .statistic-container {
+    padding: 0;
+    margin-bottom: 50px;
+  }
+  .statistic-box {
+    justify-content: center;
+    margin-right: 0;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+    padding: 30px;
+  }
+  .statistic-box h3 {
+    font-size: 25px;
+  }
+  .statistic-box p {
+    font-size: 16px;
+  }
+  .statistic-box img {
+    width: 70px;
+  }
+  /*== PROJECTS ==*/
+  .projects-text-info {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .projects-text-info p {
+    max-width: none;
+  }
+  .projects-photo-info img {
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  
 
 
 

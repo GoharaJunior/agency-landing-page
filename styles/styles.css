@@ -476,19 +476,21 @@ a {
   font-weight: 500;
   border: 2px solid var(--primary-color);
 }
-/* Our Projects */
+/* Our Statistic */
+.statistic {
+  display: flex;
+}
 .statistic-container {
   display: flex;
   max-width: 1250px;
   margin: 0 auto;
+  align-items: center;
   padding: 50px 0;
-  justify-content: center;
   justify-content: space-around;
   flex-wrap: wrap;
-
 }
 
-.statistic-box{
+.statistic-box {
   margin-right: 95px;
   display: flex;
   align-items: center;
@@ -557,6 +559,7 @@ a {
 
 .projects-photo-info img {
   width: 380px;
+  margin: 0 10 px;
 }
 /* Clients Feedback */
 .clients-container {
