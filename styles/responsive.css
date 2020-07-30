@@ -132,7 +132,29 @@
     margin: 0 auto;
     padding-bottom: 30px;
   }
-  
+  /*== CLIENTS ==*/
+  .client-photo {
+    padding: 40px 0;
+  }
+  .clients-text-info {
+    text-align: center;
+  }
+  .clients-text-info p {
+    max-width: none;
+  }
+  .client-photo {
+    justify-content: center;
+  }
+  .client-photo-info {
+    text-align: center;
+    max-width: none;
+  }
+  .client-photo-info-text {
+    padding: 0px;
+  }
+  .client-photo-info-text img {
+    width: 200px;
+  }
 
 
 
