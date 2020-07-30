@@ -26,19 +26,40 @@
   }
   /*== PARTNERS ==*/
   .partners-container {
-    padding: 0px;
-    margin-bottom: 100px;
+    display: flex;
+    overflow-x: auto;
+    padding: 0;
+    display: block;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    position: relative;
   }
-  .partners-container img {
-    width: 100px;
-    margin: 0 30px;
+  .partners-container::after {
+    content: '🡒';
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    color: var(--primary-color);
+    font-weight: 700;
+    animation: seta .5s ease-in 0s infinite alternate;
   }
-  /* == SERVICES == */
+  @keyframes seta {
+    from {
+      right: 30px;
+    }
+    to {
+      right: 20px;
+    }
+  }
+  .partners-info {
+    display: flex;
+  }
+
+
   .services-container {
     flex-direction: column;
     width: 100%;
   }
-
   .services-text-container {
     flex-direction: column;
     text-align: center;
@@ -62,12 +83,22 @@
   }
   /*== GOAL ==*/
   .goal-container {
-    max-width: 450px;
+    max-width: 350px;
   }
   .goal-container h2 { 
-    font-size: 35px;
+    font-size: 30px;
   }
-
+  /* == TEAM == */
+  .team-container {
+    padding-top: 80px;
+    justify-content: center;
+  }
+  .team-text-container {
+    text-align: center;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+  }
 
 
 

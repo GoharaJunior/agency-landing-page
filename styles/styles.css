@@ -122,14 +122,11 @@ a {
   padding: 30px;
 }
 
-
-
 /* Partners */
 .partners-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   padding: 100px 0;
 }
 
@@ -479,7 +476,7 @@ a {
   font-weight: 500;
   border: 2px solid var(--primary-color);
 }
-/* Our Proje */
+/* Our Projects */
 .statistic-container {
   display: flex;
   max-width: 1250px;
