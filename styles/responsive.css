@@ -163,7 +163,7 @@
     position: relative;
   }
   .partners-container::after {
-    content: '🡒';
+    content: '→';
     position: absolute;
     top: 5px;
     right: 30px;
@@ -286,13 +286,27 @@
   .client-photo-info-text img {
     width: 200px;
   }
-
-
-
-
-
-  /*== PROJECTS ==*/
-  .projects-photo-info {
-    flex-wrap: wrap;
+  /*== FOOTER ==*/
+  .footer-container-bg {
+    display: none;
+    background-color: tan;
+  }
+  footer {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .creditos p {
+    font-size: 15px;
+  }
+  .creditos img {
+    width: 150px;
+  }
+  .footer-container h3 {
+    color: red;
+  }
+  .creditos {
+    display: flex;
   }
 }
