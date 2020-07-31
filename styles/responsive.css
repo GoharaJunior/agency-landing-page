@@ -1,8 +1,136 @@
+@media (max-width: 868px) {
+  /*== MENU ==*/
+  .menu-nav {
+    justify-content: center;
+  }
+  /*== INTRO ==*/
+  .intro-info h1 {
+    font-size: 40px;
+  }
+  .intro-info p {
+    font-size: 17px;
+    margin-bottom: 30px;
+  }
+  .intro img {
+    width: 450px;
+  }
+  /*== PARTNERS ==*/
+  .partners-container {
+    padding: 50px 0;
+  }
+  .partners-container img {
+    width: 120px;
+  }
+  /*== ABOUT ==*/
+  .about-container img {
+    width: 300px;
+  }
+  .about-text-info h2 {
+    font-size: 30px;
+  }
+  .about-text-info p {
+    font-size: 17px;
+  }
+  /*== GOALS ==*/
+  .goal-bg {
+    height: 300px;
+  }
+  .goal-container h2 {
+    font-size: 30px;
+  }
+  /*== TEAM ==*/
+  .team-container {
+    padding-top: 80px;
+    justify-content: center;
+  }
+  .team-text-container {
+    text-align: center;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /*== STATISTIC ==*/
+  .statistic-container {
+    padding: 0;
+    margin-bottom: 50px;
+  }
+  .statistic-box {
+    justify-content: center;
+    margin-right: 0;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+    padding: 30px;
+  }
+  .statistic-box h3 {
+    font-size: 25px;
+  }
+  .statistic-box p {
+    font-size: 16px;
+  }
+  .statistic-box img {
+    width: 70px;
+  }
+  /*== PROJECTS ==*/
+  .projects-text-info {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .projects-text-info p {
+    max-width: none;
+  }
+  .projects-photo-info img {
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  /*== CLIENTS ==*/
+  .client-photo {
+    padding: 40px 0;
+  }
+  .clients-text-info {
+    text-align: center;
+  }
+  .clients-text-info p {
+    max-width: none;
+  }
+  .client-photo {
+    justify-content: center;
+  }
+  .client-photo-info {
+    text-align: center;
+    max-width: none;
+  }
+  .client-photo-info-text {
+    padding: 0px;
+  }
+  .client-photo-info-text {
+    padding: 0px;
+  }
+  .client-photo-info-text img {
+    width: 200px;
+  }
+
+  /*== PROJECTS ==*/
+  .projects-photo-info {
+    flex-wrap: wrap;
+  }
+}
+
+
+
 @media (max-width: 760px) {
   /*== HEADER ==*/
   .menu-nav {
     justify-content: center;
   }
+
+  .menu-nav ul li {
+    display: none;
+  }
+
+  .header-menu {
+    display: none;
+  }
+
   /*== INTRO ==*/
   .intro {
     flex-direction: column;
@@ -148,6 +276,9 @@
   .client-photo-info {
     text-align: center;
     max-width: none;
+  }
+  .client-photo-info-text {
+    padding: 0px;
   }
   .client-photo-info-text {
     padding: 0px;
